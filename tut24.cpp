@@ -41,3 +41,21 @@ int main() {
     Employee::countEmployee();
     return 0;
 }
+
+//Static local variable = class variables
+// Visibility: class
+// Lifetime: till termination of program
+// Default value:0
+// Storage:heap
+
+// Local Variable
+// Visibility: class
+// Lifetime: until execution of class
+// Default value:garbage
+// Storage:stack
+
+// Global variable
+// Visibility: file
+// Lifetime: till termination of program
+// Default value:0
+// Storage:heap
