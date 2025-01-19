@@ -3,5 +3,44 @@
         "*.ejs": "html",
         "iostream": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "better-comments.tags": [
+        
+        {
+            "tag": "!",
+            "color": "#ff2d2d",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "TODO:",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#f14707",
+            "bold": false,
+            "italic": true,
+        },
+        {
+            "tag": "FIXME:",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#ed00a5",
+            "bold": false,
+            "italic": false
+        }
+    ]
 }
